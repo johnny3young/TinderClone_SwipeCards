@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
         al.add("python")
         al.add("java")
 
+
         //choose your favorite adapter
         arrayAdapter = ArrayAdapter(this, R.layout.item, R.id.helloText, al)
 
